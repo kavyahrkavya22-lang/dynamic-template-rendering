@@ -1,0 +1,13 @@
+{
+  "name": "dynamic-template-engine-root",
+  "version": "1.0.0",
+  "description": "Dynamic Template Rendering Engine for Configurable Website Generation",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["mern", "dynamic-template", "website-generator", "react", "framer-motion", "tailwind"],
+  "author": "",
+  "license": "ISC"
+}
